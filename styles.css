@@ -30,9 +30,9 @@ body {
     height: 100%;
     z-index: -1;
     background: 
-        radial-gradient(circle at 20% 80%, rgba(192, 192, 192, 0.08) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(192, 192, 192, 0.06) 0%, transparent 50%),
-        radial-gradient(circle at 40% 40%, rgba(192, 192, 192, 0.04) 0%, transparent 50%);
+        radial-gradient(circle at 20% 80%, rgba(75, 54, 54, 0.29) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(131, 76, 76, 0) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(135, 70, 70, 0.458) 0%, transparent 50%);
     animation: pulse 8s ease-in-out infinite alternate;
     overflow: hidden;
 }
@@ -45,11 +45,11 @@ body {
     width: 100%;
     height: 100%;
     background-image: 
-        radial-gradient(2px 2px at 20px 30px, rgba(192, 192, 192, 0.4), transparent),
-        radial-gradient(1px 1px at 40px 70px, rgba(192, 192, 192, 0.3), transparent),
-        radial-gradient(1px 1px at 90px 40px, rgba(192, 192, 192, 0.25), transparent),
-        radial-gradient(2px 2px at 130px 80px, rgba(192, 192, 192, 0.35), transparent),
-        radial-gradient(1px 1px at 160px 30px, rgba(192, 192, 192, 0.3), transparent);
+        radial-gradient(2px 2px at 20px 30px, rgba(240, 234, 234, 0.987), transparent),
+        radial-gradient(1px 1px at 40px 70px, rgb(245, 237, 237), transparent),
+        radial-gradient(1px 1px at 90px 40px, rgba(222, 213, 213, 0.583), transparent),
+        radial-gradient(2px 2px at 130px 80px, rgb(241, 229, 229), transparent),
+        radial-gradient(1px 1px at 160px 30px, rgba(244, 236, 236, 0.988), transparent);
     background-repeat: repeat;
     background-size: 200px 100px;
     animation: drift 120s linear infinite;
@@ -63,9 +63,9 @@ body {
     width: 100%;
     height: 100%;
     background-image: 
-        radial-gradient(3px 3px at 60px 20px, rgba(192, 192, 192, 0.15), transparent),
-        radial-gradient(2px 2px at 100px 60px, rgba(192, 192, 192, 0.2), transparent),
-        radial-gradient(1px 1px at 180px 90px, rgba(192, 192, 192, 0.18), transparent);
+        radial-gradient(3px 3px at 60px 20px, rgb(242, 235, 235), transparent),
+        radial-gradient(2px 2px at 100px 60px, rgba(240, 227, 227, 0.947), transparent),
+        radial-gradient(1px 1px at 180px 90px, rgb(248, 237, 237), transparent);
     background-repeat: repeat;
     background-size: 250px 150px;
     animation: drift 180s linear infinite reverse;
