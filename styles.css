@@ -918,6 +918,17 @@ body {
     margin-bottom: 1rem;
 }
 
+.blog-link {
+    color: var(--silver);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.blog-link:hover {
+    color: var(--silver-bright);
+    text-shadow: 0 0 10px var(--silver-glow);
+}
+
 .blog-excerpt {
     line-height: 1.6;
     opacity: 0.8;
